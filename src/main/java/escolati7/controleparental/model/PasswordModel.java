@@ -1,10 +1,7 @@
 package escolati7.controleparental.model;
 
-import javax.persistence.Entity;
-
 import lombok.Getter;
 
-@Entity
 public class PasswordModel {
 
     @Getter
