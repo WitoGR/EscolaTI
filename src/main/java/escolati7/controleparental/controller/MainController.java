@@ -1,20 +1,18 @@
 package escolati7.controleparental.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import escolati7.controleparental.interfaces.UserRepository;
 import escolati7.controleparental.model.PasswordModel;
 import escolati7.controleparental.model.UserModel;
 
-@Controller
-@CrossOrigin(origins = "*")
+@RestController
 @RequestMapping("/")
 public class MainController {
     
