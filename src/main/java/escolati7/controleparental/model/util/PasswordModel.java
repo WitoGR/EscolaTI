@@ -1,4 +1,4 @@
-package escolati7.controleparental.model;
+package escolati7.controleparental.model.util;
 
 import lombok.Getter;
 
@@ -17,11 +17,11 @@ public class PasswordModel {
         String resposta = "";
 
         for(int i = 0; i < 6; i++){
-            this.part[i] = (short)Math.floor(Math.random()*(9-0+1)+0);// insere um numero aleatorio de 0 a 9 em um dos 8 vetores
-            resposta += this.part[i];
+            this.part[i] = (short)Math.floor(Math.random()*(9-0+1)+0); // insere um numero aleatorio de 0 a 9 em um dos 6 vetores
+            resposta += this.part[i]; // transforma o vetor em string 
         }
 
-        this.password = resposta;// transforma o vetor em string e passa para a senha
+        this.password = resposta; // passa para a senha
     }
 
 }
