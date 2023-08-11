@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import escolati7.controleparental.interfaces.UserRepository;
 import escolati7.controleparental.model.PasswordModel;
 import escolati7.controleparental.model.UserModel;
+import escolati7.controleparental.repository.UserRepository;
 
 @RestController
 @RequestMapping("/")

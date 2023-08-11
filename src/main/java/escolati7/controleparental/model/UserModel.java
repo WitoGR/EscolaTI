@@ -13,7 +13,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity // Define que é uma entidade/objeto
+@Entity // Define que é uma entidade para o hibernate
 @Table(name = "tb_user") // Define que tabela que vai estar no banco de dados
 @NoArgsConstructor @AllArgsConstructor // Gera um construtor vazio e outro com todas as informações
 public class UserModel {
